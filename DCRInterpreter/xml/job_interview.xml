@@ -1,0 +1,1302 @@
+<dcrgraph title="Job interview process" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" formShowPendingCount="true" graphBG="#f1f6fe" graphType="0" exercise="false" version="1.1">
+    <meta>
+        <graph id="1989472" hash="BEED5596F9C1C315B39D5944F23C6783" guid="D476A816-DAF1-4892-B17A-BCB382B67EC5" OwnerName="vlad faget" OwnerId="140100" categoryId="7600" categoryTitle="Default"/>
+        <revision id="4782048" type="medium" date="2025-05-14T18:40:23.760"/>
+        <organization id="14" name="DCR Solutions"/>
+    </meta>
+    <specification>
+        <resources>
+            <events>
+                <event id="application" type="subprocess">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="150" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles/>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>0</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="application:personal_info" type="form" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="370" yLoc="170"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role description="" specification="">Candidate</role>
+                            </roles>
+                            <readRoles/>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>1</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="application:phone_number">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="400" yLoc="370"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>2</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:full_name">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="400" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>3</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="2" width="small" min="NaN" max="NaN" placeholder="" hinttext="">text</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:email_addr">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="550" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>4</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="3" width="small" min="" max="" placeholder="" hinttext="">email</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:dob">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="550" yLoc="370"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>12</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="11" width="small" min="" max="" placeholder="" hinttext="">date</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="application:upload_doc" type="form" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="800" yLoc="170"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role description="" specification="">Candidate</role>
+                            </roles>
+                            <readRoles/>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="application:cover_letter">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="980" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>11</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="10" width="small" min="" max="" placeholder="" hinttext="">file</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:resume">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="830" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>10</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="10" width="small" min="" max="" placeholder="" hinttext="">file</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:linkedin">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="980" yLoc="370"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>9</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="8" width="small" min="" max="" placeholder="" hinttext="">web</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="application:applic_details" type="form" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1200" yLoc="170"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role description="" specification="">Candidate</role>
+                            </roles>
+                            <readRoles/>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>14</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="application:position">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1230" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>13</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="12" width="small" placeholder="" hinttext="" dataSetList="" radio="" multiple="false" format="int">choice</dataType>
+                                    <dictionary>
+                                        <item label="Software engineer" value="1"/>
+                                        <item label="Backend developer" value="2"/>
+                                        <item label="Security analyst" value="3"/>
+                                        <item label="UI&amp;#x2F;UX specialyst" value="4"/>
+                                        <item label="System architect" value="5"/>
+                                    </dictionary>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:min_salary">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1400" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>7</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="6" width="small" min="NaN" max="NaN" placeholder="" hinttext="">int</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:avail_start_date">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1250" yLoc="370"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>8</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="7" width="small" min="" max="" placeholder="" hinttext="">datetime</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:cert">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1400" yLoc="370"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>6</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="5" width="small" min="" max="" placeholder="" hinttext="">file</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="application:A15" type="form" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1600" yLoc="170"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role description="" specification="">Candidate</role>
+                            </roles>
+                            <readRoles/>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>15</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="application:A17">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1630" yLoc="220"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>17</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="16" width="small" placeholder="" hinttext="" default="I solemnly swear that I am up to no good. ">label</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="application:A16">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1630" yLoc="370"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles/>
+                                <readRoles/>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType/>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>1</level>
+                                <sequence>16</sequence>
+                                <costs>0</costs>
+                                <eventData>
+                                    <dataType sequence="15" width="small" placeholder="" hinttext="">bool</dataType>
+                                    <validationRules/>
+                                </eventData>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                </event>
+                <event id="rev_applic">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">HR</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>18</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="1" width="small" placeholder="" hinttext="" dataSetList="" radio="" multiple="false" format="int">choice</dataType>
+                            <dictionary>
+                                <item label="Approve" value="1"/>
+                                <item label="Request additional documentation" value="2"/>
+                                <item label="Reject" value="3"/>
+                            </dictionary>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="A3">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="650" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">HR</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>19</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="2" width="small" min="0" max="255" placeholder="" hinttext="">datetime</dataType>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="decision">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">HR</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>20</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="3" width="small" placeholder="" hinttext="">bool</dataType>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="att_interview">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="900" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">Candidate</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>21</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="4" width="small" placeholder="" hinttext="">bool</dataType>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="reg_email">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="850" yLoc="320"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">System</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>22</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="A8">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1300" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">Finance</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>23</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="7" width="small" min="NaN" max="NaN" placeholder="" hinttext="">int</dataType>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="A9">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1100" yLoc="320"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">System</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>24</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="cand_decision">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1350" yLoc="320"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role description="" specification="">Candidate</role>
+                        </roles>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>25</sequence>
+                        <costs>0</costs>
+                        <eventData>
+                            <dataType sequence="9" width="small" placeholder="" hinttext="">bool</dataType>
+                            <validationRules/>
+                        </eventData>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="add_doc" type="template" index="0">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="300" yLoc="270"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles/>
+                        <readRoles/>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <template>
+                        <dcrgraph title="Job interview process" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" formShowPendingCount="true" graphBG="#f1f6fe" graphType="0" exercise="false" version="1.1">
+                            <specification>
+                                <resources>
+                                    <events>
+                                        <event id="A13" type="form" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1">
+                                            <precondition message=""/>
+                                            <custom>
+                                                <visualization>
+                                                    <location xLoc="330" yLoc="320"/>
+                                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                                </visualization>
+                                                <roles>
+                                                    <role description="" specification="">Candidate</role>
+                                                </roles>
+                                                <readRoles>
+                                                    <readRole description="" specification="">HR</readRole>
+                                                </readRoles>
+                                                <groups>
+                                                    <group/>
+                                                </groups>
+                                                <phases>
+                                                    <phase/>
+                                                </phases>
+                                                <eventType/>
+                                                <eventScope>private</eventScope>
+                                                <eventTypeData/>
+                                                <eventDescription/>
+                                                <purpose/>
+                                                <guide/>
+                                                <insight use="false"/>
+                                                <level>1</level>
+                                                <sequence>12</sequence>
+                                                <costs>0</costs>
+                                                <eventData/>
+                                                <interfaces/>
+                                            </custom>
+                                            <event id="file">
+                                                <precondition message=""/>
+                                                <custom>
+                                                    <visualization>
+                                                        <location xLoc="510" yLoc="370"/>
+                                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                                    </visualization>
+                                                    <roles/>
+                                                    <readRoles/>
+                                                    <groups>
+                                                        <group/>
+                                                    </groups>
+                                                    <phases>
+                                                        <phase/>
+                                                    </phases>
+                                                    <eventType/>
+                                                    <eventScope>private</eventScope>
+                                                    <eventTypeData/>
+                                                    <eventDescription/>
+                                                    <purpose/>
+                                                    <guide/>
+                                                    <insight use="false"/>
+                                                    <level>1</level>
+                                                    <sequence>11</sequence>
+                                                    <costs>0</costs>
+                                                    <eventData>
+                                                        <dataType sequence="11" width="small" min="" max="" placeholder="" hinttext="">file</dataType>
+                                                        <validationRules/>
+                                                    </eventData>
+                                                    <interfaces/>
+                                                </custom>
+                                            </event>
+                                            <event id="type">
+                                                <precondition message=""/>
+                                                <custom>
+                                                    <visualization>
+                                                        <location xLoc="360" yLoc="370"/>
+                                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                                    </visualization>
+                                                    <roles/>
+                                                    <readRoles/>
+                                                    <groups>
+                                                        <group/>
+                                                    </groups>
+                                                    <phases>
+                                                        <phase/>
+                                                    </phases>
+                                                    <eventType/>
+                                                    <eventScope>private</eventScope>
+                                                    <eventTypeData/>
+                                                    <eventDescription/>
+                                                    <purpose/>
+                                                    <guide/>
+                                                    <insight use="false"/>
+                                                    <level>1</level>
+                                                    <sequence>10</sequence>
+                                                    <costs>0</costs>
+                                                    <eventData>
+                                                        <dataType sequence="10" width="small" placeholder="" hinttext="" default="">label</dataType>
+                                                        <validationRules/>
+                                                    </eventData>
+                                                    <interfaces/>
+                                                </custom>
+                                            </event>
+                                        </event>
+                                    </events>
+                                    <subProcesses/>
+                                    <labels>
+                                        <label id="Type"/>
+                                        <label id="File"/>
+                                        <label id="Add documentation"/>
+                                    </labels>
+                                    <labelMappings>
+                                        <labelMapping eventId="A13" labelId="Add documentation"/>
+                                        <labelMapping eventId="file" labelId="File"/>
+                                        <labelMapping eventId="type" labelId="Type"/>
+                                    </labelMappings>
+                                    <expressions/>
+                                    <variables/>
+                                    <variableAccesses>
+                                        <writeAccesses/>
+                                    </variableAccesses>
+                                    <custom>
+                                        <keywords/>
+                                        <roles>
+                                            <role description="" specification="">HR</role>
+                                            <role description="" specification="">Candidate</role>
+                                            <role description="" specification="">System</role>
+                                            <role description="" specification="">Finance</role>
+                                        </roles>
+                                        <groups/>
+                                        <phases/>
+                                        <eventTypes/>
+                                        <eventParameters/>
+                                        <graphDetails>DCR Process</graphDetails>
+                                        <graphDocumentation/>
+                                        <graphLanguage>en-US</graphLanguage>
+                                        <graphDomain>process</graphDomain>
+                                        <graphFilters>
+                                            <filteredGroups/>
+                                            <filteredRoles/>
+                                            <filteredPhases/>
+                                        </graphFilters>
+                                        <highlighterMarkup>
+                                            <highlightLayers>
+                                                <highlightLayer default="true" name="description">DCR Process</highlightLayer>
+                                            </highlightLayers>
+                                            <highlights/>
+                                        </highlighterMarkup>
+                                    </custom>
+                                </resources>
+                                <constraints>
+                                    <conditions>
+                                        <condition sourceId="A13" targetId="A3" filterLevel="1" description="" time="" groups="" link="add_doc.A13--condition--A3"/>
+                                    </conditions>
+                                    <responses>
+                                        <response sourceId="A13" targetId="A3" filterLevel="1" description="" time="" groups=""/>
+                                    </responses>
+                                    <coresponses/>
+                                    <includes>
+                                        <include sourceId="A13" targetId="A3" filterLevel="1" description="" time="" groups=""/>
+                                    </includes>
+                                    <excludes/>
+                                    <milestones>
+                                        <milestone sourceId="A13" targetId="A3" filterLevel="1" description="" time="" groups="" link="add_doc.A13--condition--A3"/>
+                                    </milestones>
+                                    <spawns/>
+                                    <templateSpawns/>
+                                    <updates/>
+                                </constraints>
+                            </specification>
+                            <runtime accepting="false">
+                                <custom>
+                                    <globalMarking>
+                                        <enabled/>
+                                        <enabledSubprocesses/>
+                                        <executed/>
+                                        <pending/>
+                                        <included/>
+                                    </globalMarking>
+                                </custom>
+                                <marking>
+                                    <globalStore/>
+                                    <executed/>
+                                    <included>
+                                        <event id="A13"/>
+                                        <event id="file"/>
+                                        <event id="type"/>
+                                    </included>
+                                    <pendingResponses>
+                                        <event id="A13"/>
+                                        <event id="file"/>
+                                    </pendingResponses>
+                                </marking>
+                            </runtime>
+                        </dcrgraph>
+                    </template>
+                </event>
+            </events>
+            <subProcesses/>
+            <labels>
+                <label id="Additional documentation"/>
+                <label id="Approval"/>
+                <label id="Terms and conditions"/>
+                <label id="Aknowlegment and consent"/>
+                <label id="Certifications"/>
+                <label id="Available start date"/>
+                <label id="Minimum salary expected"/>
+                <label id="Position"/>
+                <label id="Application details"/>
+                <label id="LinkedIn"/>
+                <label id="Resume"/>
+                <label id="Cover letter"/>
+                <label id="Upload resume"/>
+                <label id="Date of birth"/>
+                <label id="Email address"/>
+                <label id="Full name"/>
+                <label id="Phone number"/>
+                <label id="Personal information"/>
+                <label id="Candidate decision"/>
+                <label id="Send offer"/>
+                <label id="Set salary"/>
+                <label id="Send regret email"/>
+                <label id="Attend interview"/>
+                <label id="Make hiring decision"/>
+                <label id="Schedule interview"/>
+                <label id="Review application"/>
+                <label id="Application"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="application" labelId="Application"/>
+                <labelMapping eventId="rev_applic" labelId="Review application"/>
+                <labelMapping eventId="A3" labelId="Schedule interview"/>
+                <labelMapping eventId="decision" labelId="Make hiring decision"/>
+                <labelMapping eventId="att_interview" labelId="Attend interview"/>
+                <labelMapping eventId="reg_email" labelId="Send regret email"/>
+                <labelMapping eventId="A8" labelId="Set salary"/>
+                <labelMapping eventId="A9" labelId="Send offer"/>
+                <labelMapping eventId="cand_decision" labelId="Candidate decision"/>
+                <labelMapping eventId="application:personal_info" labelId="Personal information"/>
+                <labelMapping eventId="application:phone_number" labelId="Phone number"/>
+                <labelMapping eventId="application:full_name" labelId="Full name"/>
+                <labelMapping eventId="application:email_addr" labelId="Email address"/>
+                <labelMapping eventId="application:dob" labelId="Date of birth"/>
+                <labelMapping eventId="application:upload_doc" labelId="Upload resume"/>
+                <labelMapping eventId="application:cover_letter" labelId="Cover letter"/>
+                <labelMapping eventId="application:resume" labelId="Resume"/>
+                <labelMapping eventId="application:linkedin" labelId="LinkedIn"/>
+                <labelMapping eventId="application:applic_details" labelId="Application details"/>
+                <labelMapping eventId="application:position" labelId="Position"/>
+                <labelMapping eventId="application:min_salary" labelId="Minimum salary expected"/>
+                <labelMapping eventId="application:avail_start_date" labelId="Available start date"/>
+                <labelMapping eventId="application:cert" labelId="Certifications"/>
+                <labelMapping eventId="application:A15" labelId="Aknowlegment and consent"/>
+                <labelMapping eventId="application:A17" labelId="Terms and conditions"/>
+                <labelMapping eventId="application:A16" labelId="Approval"/>
+                <labelMapping eventId="add_doc" labelId="Additional documentation"/>
+            </labelMappings>
+            <expressions>
+                <expression id="0" value="(rev_applic = 3)"/>
+                <expression id="1" value="(rev_applic = 1)"/>
+                <expression id="2" value="(rev_applic = 1)"/>
+                <expression id="3" value="(rev_applic = 3)"/>
+                <expression id="4" value="(decision = false)"/>
+                <expression id="5" value="(decision = false)"/>
+                <expression id="6" value="(att_interview = true)"/>
+                <expression id="7" value="(att_interview = true)"/>
+                <expression id="8" value="(application:position != 4)"/>
+                <expression id="9" value="(rev_applic = 1)"/>
+                <expression id="10" value="(rev_applic = 1)"/>
+                <expression id="11" value="(att_interview = true)"/>
+                <expression id="12" value="(att_interview = true)"/>
+                <expression id="13" value="(application:position != 4)"/>
+                <expression id="14" value="(application:position != 4)"/>
+                <expression id="15" value="(rev_applic = 2)"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">HR</role>
+                    <role description="" specification="">Candidate</role>
+                    <role description="" specification="">System</role>
+                    <role description="" specification="">Finance</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>DCR Process</graphDetails>
+                <graphDocumentation/>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">DCR Process</highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="application:applic_details" targetId="application:A15" filterLevel="1" description="" time="" groups="" link="applic_details--condition--A15"/>
+                <condition sourceId="application:position" targetId="application:cert" filterLevel="1" description="" time="" groups="" link="A14.A13--condition--A14.A6" expressionId="13"/>
+                <condition sourceId="application:upload_doc" targetId="application:applic_details" filterLevel="1" description="" time="" groups="" link="A5--condition--A14"/>
+                <condition sourceId="application:personal_info" targetId="application:upload_doc" filterLevel="1" description="" time="" groups="" link="A1--condition--A5"/>
+                <condition sourceId="A9" targetId="cand_decision" filterLevel="1" description="" time="" groups="" link="A9--condition--cand_decision"/>
+                <condition sourceId="A8" targetId="A9" filterLevel="1" description="" time="" groups="" link="A8--condition--A9"/>
+                <condition sourceId="decision" targetId="A8" filterLevel="1" description="" time="" groups="" link="decision--condition--A8"/>
+                <condition sourceId="A3" targetId="att_interview" filterLevel="1" description="" time="" groups="" link="A3--condition--att_interview"/>
+                <condition sourceId="att_interview" targetId="decision" filterLevel="1" description="" time="" groups="" link="att_interview--condition--decision" expressionId="11"/>
+                <condition sourceId="rev_applic" targetId="A3" filterLevel="1" description="" time="" groups="" link="rev_applic--condition--A3" expressionId="9"/>
+                <condition sourceId="application" targetId="rev_applic" filterLevel="1" description="" time="" groups="" link="application--condition--rev_applic"/>
+            </conditions>
+            <responses>
+                <response sourceId="application:position" targetId="application:cert" filterLevel="1" description="" time="" groups="" expressionId="8"/>
+                <response sourceId="application:applic_details" targetId="application:A15" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="application:upload_doc" targetId="application:applic_details" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="application:personal_info" targetId="application:upload_doc" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="A9" targetId="cand_decision" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="A8" targetId="A9" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="att_interview" targetId="decision" filterLevel="1" description="" time="" groups="" expressionId="6"/>
+                <response sourceId="decision" targetId="reg_email" filterLevel="1" description="" time="" groups="" expressionId="4"/>
+                <response sourceId="decision" targetId="A8" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="A3" targetId="att_interview" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="rev_applic" targetId="A3" filterLevel="1" description="" time="" groups="" expressionId="1"/>
+                <response sourceId="rev_applic" targetId="reg_email" filterLevel="1" description="" time="" groups="" expressionId="0"/>
+                <response sourceId="application" targetId="rev_applic" filterLevel="1" description="" time="" groups=""/>
+            </responses>
+            <coresponses/>
+            <includes>
+                <include sourceId="A9" targetId="cand_decision" filterLevel="1" description="" time="" groups=""/>
+                <include sourceId="A8" targetId="A9" filterLevel="1" description="" time="" groups=""/>
+                <include sourceId="att_interview" targetId="decision" filterLevel="1" description="" time="" groups="" expressionId="7"/>
+                <include sourceId="decision" targetId="reg_email" filterLevel="1" description="" time="" groups="" expressionId="5"/>
+                <include sourceId="decision" targetId="A8" filterLevel="1" description="" time="" groups=""/>
+                <include sourceId="A3" targetId="att_interview" filterLevel="1" description="" time="" groups=""/>
+                <include sourceId="rev_applic" targetId="reg_email" filterLevel="1" description="" time="" groups="" expressionId="3"/>
+                <include sourceId="rev_applic" targetId="A3" filterLevel="1" description="" time="" groups="" expressionId="2"/>
+            </includes>
+            <excludes/>
+            <milestones>
+                <milestone sourceId="application:applic_details" targetId="application:A15" filterLevel="1" description="" time="" groups="" link="applic_details--condition--A15"/>
+                <milestone sourceId="application:position" targetId="application:cert" filterLevel="1" description="" time="" groups="" link="A14.A13--condition--A14.A6" expressionId="14"/>
+                <milestone sourceId="application:upload_doc" targetId="application:applic_details" filterLevel="1" description="" time="" groups="" link="A5--condition--A14"/>
+                <milestone sourceId="application:personal_info" targetId="application:upload_doc" filterLevel="1" description="" time="" groups="" link="A1--condition--A5"/>
+                <milestone sourceId="A9" targetId="cand_decision" filterLevel="1" description="" time="" groups="" link="A9--condition--cand_decision"/>
+                <milestone sourceId="A8" targetId="A9" filterLevel="1" description="" time="" groups="" link="A8--condition--A9"/>
+                <milestone sourceId="decision" targetId="A8" filterLevel="1" description="" time="" groups="" link="decision--condition--A8"/>
+                <milestone sourceId="A3" targetId="att_interview" filterLevel="1" description="" time="" groups="" link="A3--condition--att_interview"/>
+                <milestone sourceId="att_interview" targetId="decision" filterLevel="1" description="" time="" groups="" link="att_interview--condition--decision" expressionId="12"/>
+                <milestone sourceId="rev_applic" targetId="A3" filterLevel="1" description="" time="" groups="" link="rev_applic--condition--A3" expressionId="10"/>
+                <milestone sourceId="application" targetId="rev_applic" filterLevel="1" description="" time="" groups="" link="application--condition--rev_applic"/>
+            </milestones>
+            <spawns/>
+            <templateSpawns>
+                <templateSpawn sourceId="rev_applic" targetId="add_doc" filterLevel="1" description="" time="" groups="" expressionId="15" spawnType="instance"/>
+                <templateSpawn sourceId="A3" targetId="add_doc" filterLevel="1" description="" time="" groups="" expressionId="15" spawnType="instance" data="[ { &quot;type&quot;: &quot;Cover letter&quot;, &quot;file&quot; :&quot;cover.pdf&quot; }, {&quot;type&quot;: &quot;Diploma&quot;, &quot;file&quot; :&quot;diploma.pdf&quot; }]"/>
+            </templateSpawns>
+            <updates>
+                <update sourceId="A8" targetId="A9" filterLevel="1" description="" time="" groups=""/>
+            </updates>
+        </constraints>
+    </specification>
+    <runtime accepting="false">
+        <custom>
+            <globalMarking>
+                <enabled/>
+                <enabledSubprocesses/>
+                <executed/>
+                <pending/>
+                <included/>
+            </globalMarking>
+            <time current="2025-05-14T18:40:23.7886785+02:00"/>
+        </custom>
+        <marking>
+            <globalStore>
+                <variable id="application:A17" value="I solemnly swear that I am up to no good. " isNull="false" type="string"/>
+            </globalStore>
+            <executed/>
+            <included>
+                <event id="application"/>
+                <event id="rev_applic"/>
+                <event id="application:personal_info"/>
+                <event id="application:phone_number"/>
+                <event id="application:full_name"/>
+                <event id="application:email_addr"/>
+                <event id="application:dob"/>
+                <event id="application:upload_doc"/>
+                <event id="application:cover_letter"/>
+                <event id="application:resume"/>
+                <event id="application:linkedin"/>
+                <event id="application:applic_details"/>
+                <event id="application:position"/>
+                <event id="application:min_salary"/>
+                <event id="application:avail_start_date"/>
+                <event id="application:cert"/>
+                <event id="application:A15"/>
+                <event id="application:A17"/>
+                <event id="application:A16"/>
+            </included>
+            <pendingResponses>
+                <event id="application"/>
+                <event id="application:personal_info"/>
+                <event id="application:full_name"/>
+                <event id="application:email_addr"/>
+                <event id="application:dob"/>
+                <event id="application:resume"/>
+                <event id="application:position"/>
+                <event id="application:avail_start_date"/>
+                <event id="application:A16"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

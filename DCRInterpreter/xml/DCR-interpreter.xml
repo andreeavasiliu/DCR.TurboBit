@@ -1,0 +1,693 @@
+<dcrgraph title="DCR-interpreter" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-2" formGroupStyle="Normal" formLayoutStyle="Horizontal" formShowPendingCount="true" graphBG="#f1f6fe" graphType="0" exercise="false" version="1.1">
+    <meta>
+        <graph id="1988223" hash="A5FB68630B595371D08B6B33D9011AFA" guid="F9D94BC6-2A13-484D-ADAC-113C8D8E0375" OwnerName="Andreea Vasiliu" OwnerId="140094" categoryId="7554" categoryTitle="Default"/>
+        <revision id="4516985" type="minor" date="2025-02-09T20:24:03.590"/>
+        <organization id="14" name="DCR Solutions"/>
+    </meta>
+    <specification>
+        <resources>
+            <events>
+                <event id="vacation_request" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1" type="form">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="0" yLoc="20"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>Employee</role>
+                        </roles>
+                        <readRoles>
+                            <readRole/>
+                        </readRoles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>0</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="employee_name">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="30" yLoc="70"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>1</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="1" width="small" min="NaN" max="NaN" placeholder="" hinttext="">text</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="reason">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="30" yLoc="370"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>5</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="5" width="small" min="" max="" placeholder="" hinttext="">longtext</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="start_date">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="30" yLoc="220"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="3" width="small" min="0" max="255" placeholder="" hinttext="">date</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="end_date">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="150" yLoc="220"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>4</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="4" width="small" min="0" max="255" placeholder="" hinttext="">date</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="employee_email">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="150" yLoc="70"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>2</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="2" width="small" min="" max="" placeholder="" hinttext="">email</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="robot">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="350" yLoc="220"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>robot</role>
+                        </roles>
+                        <readRoles>
+                            <readRole/>
+                        </readRoles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>6</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+                <event id="review_request" cancelText="" sendText="" hideCancel="false" formShowInitialPhase="1" type="form">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="550" yLoc="20"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <readRoles>
+                            <readRole/>
+                        </readRoles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>7</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="e_n">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="580" yLoc="70"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole>Manager</readRole>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="8" width="small" min="NaN" max="NaN" placeholder="" hinttext="">text</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="e_d">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="730" yLoc="220"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole>Manager</readRole>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>11</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="11" width="small" min="0" max="255" placeholder="" hinttext="">date</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="e_e">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="730" yLoc="70"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole>Manager</readRole>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>9</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="9" width="small" min="" max="" placeholder="" hinttext="">email</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="s_d">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="580" yLoc="220"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole>Manager</readRole>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>10</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="10" width="small" min="0" max="255" placeholder="" hinttext="">date</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="r">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="580" yLoc="370"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole>Manager</readRole>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>12</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="12" width="small" min="" max="" placeholder="" hinttext="">longtext</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="approved">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="730" yLoc="370"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Manager</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData>
+                                <dataType sequence="13" width="small" placeholder="Is this request approved? " hinttext="">bool</dataType>
+                                <validationRules/>
+                            </eventData>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="submit_to_hr">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="1000" yLoc="120"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role>HR</role>
+                        </roles>
+                        <readRoles>
+                            <readRole/>
+                        </readRoles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType/>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>14</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Submit vacation request"/>
+                <label id="Employee name"/>
+                <label id="Reason for leave"/>
+                <label id="Start date"/>
+                <label id="End date"/>
+                <label id="Employee email"/>
+                <label id="input values"/>
+                <label id="Review request"/>
+                <label id="Employee name"/>
+                <label id="End date"/>
+                <label id="Employee email"/>
+                <label id="Start date"/>
+                <label id="Reason for leave"/>
+                <label id="IsApproved"/>
+                <label id="Submit to HR system"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="vacation_request" labelId="Submit vacation request"/>
+                <labelMapping eventId="employee_name" labelId="Employee name"/>
+                <labelMapping eventId="reason" labelId="Reason for leave"/>
+                <labelMapping eventId="start_date" labelId="Start date"/>
+                <labelMapping eventId="end_date" labelId="End date"/>
+                <labelMapping eventId="employee_email" labelId="Employee email"/>
+                <labelMapping eventId="robot" labelId="input values"/>
+                <labelMapping eventId="review_request" labelId="Review request"/>
+                <labelMapping eventId="e_n" labelId="Employee name"/>
+                <labelMapping eventId="e_d" labelId="End date"/>
+                <labelMapping eventId="e_e" labelId="Employee email"/>
+                <labelMapping eventId="s_d" labelId="Start date"/>
+                <labelMapping eventId="r" labelId="Reason for leave"/>
+                <labelMapping eventId="approved" labelId="IsApproved"/>
+                <labelMapping eventId="submit_to_hr" labelId="Submit to HR system"/>
+            </labelMappings>
+            <expressions>
+                <expression id="vacation_request-path-robot--response" value="start_date &lt; end_date"/>
+                <expression id="review_request-path-submit_to_hr--response" value="approved=true"/>
+                <expression id="review_request-path-vacation_request--response" value="approved=false"/>
+                <expression id="review_request-path-vacation_request--include" value="approved=false"/>
+                <expression id="review_request-path-submit_to_hr--include" value="approved=true"/>
+                <expression id="robot-path-e_n--update--value" value="employee_name"/>
+                <expression id="robot-path-s_d--update--value" value="start_date"/>
+                <expression id="robot-path-r--update--value" value="reason"/>
+                <expression id="robot-path-e_d--update--value" value="end_date"/>
+                <expression id="robot-path-e_e--update--value" value="employee_email"/>
+            </expressions>
+            <variables/>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="">Employee</role>
+                    <role description="" specification="">Manager</role>
+                    <role description="" specification="">HR</role>
+                    <role description="" specification="">robot</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes/>
+                <eventParameters/>
+                <graphDetails>DCR Process</graphDetails>
+                <graphDocumentation/>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description">
+                            <![CDATA[DCR Process]]>
+                        </highlightLayer>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="vacation_request" targetId="robot" filterLevel="1" description="" time="" groups="" link="vacation_request--condition--robot"/>
+                <condition sourceId="robot" targetId="review_request" filterLevel="1" description="" time="" groups="" link="robot--condition--review_request"/>
+                <condition sourceId="review_request" targetId="submit_to_hr" filterLevel="1" description="" time="" groups="" link="review_request--condition--submit_to_hr"/>
+            </conditions>
+            <responses>
+                <response sourceId="vacation_request" targetId="robot" filterLevel="1" description="" time="" groups="" expressionId="vacation_request-path-robot--response"/>
+                <response sourceId="robot" targetId="review_request" filterLevel="1" description="" time="" groups=""/>
+                <response sourceId="review_request" targetId="submit_to_hr" filterLevel="1" description="" time="" groups="" expressionId="review_request-path-submit_to_hr--response"/>
+                <response sourceId="review_request" targetId="vacation_request" filterLevel="1" description="" time="" groups="" expressionId="review_request-path-vacation_request--response"/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="robot" targetId="vacation_request" filterLevel="1" description="" time="" groups=""/>
+                <exclude sourceId="robot" targetId="robot" filterLevel="1" description="" time="" groups=""/>
+                <exclude sourceId="review_request" targetId="review_request" filterLevel="1" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="review_request" targetId="vacation_request" filterLevel="1" description="" time="" groups="" expressionId="review_request-path-vacation_request--include"/>
+                <include sourceId="robot" targetId="review_request" filterLevel="1" description="" time="" groups=""/>
+                <include sourceId="review_request" targetId="submit_to_hr" filterLevel="1" description="" time="" groups="" expressionId="review_request-path-submit_to_hr--include"/>
+                <include sourceId="vacation_request" targetId="robot" filterLevel="1" description="" time="" groups=""/>
+            </includes>
+            <milestones>
+                <milestone sourceId="vacation_request" targetId="robot" filterLevel="1" description="" time="" groups="" link="vacation_request--condition--robot"/>
+                <milestone sourceId="robot" targetId="review_request" filterLevel="1" description="" time="" groups="" link="robot--condition--review_request"/>
+                <milestone sourceId="review_request" targetId="submit_to_hr" filterLevel="1" description="" time="" groups="" link="review_request--condition--submit_to_hr"/>
+            </milestones>
+            <updates>
+                <update sourceId="robot" targetId="e_n" filterLevel="1" description="" time="" groups="" valueExpressionId="robot-path-e_n--update--value"/>
+                <update sourceId="robot" targetId="s_d" filterLevel="1" description="" time="" groups="" valueExpressionId="robot-path-s_d--update--value"/>
+                <update sourceId="robot" targetId="r" filterLevel="1" description="" time="" groups="" valueExpressionId="robot-path-r--update--value"/>
+                <update sourceId="robot" targetId="e_d" filterLevel="1" description="" time="" groups="" valueExpressionId="robot-path-e_d--update--value"/>
+                <update sourceId="robot" targetId="e_e" filterLevel="1" description="" time="" groups="" valueExpressionId="robot-path-e_e--update--value"/>
+            </updates>
+            <spawns/>
+            <templateSpawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore>
+                <variable id="approved" value="false" isNull="false" type="expr"/>
+            </globalStore>
+            <executed/>
+            <included>
+                <event id="vacation_request"/>
+                <event id="employee_name"/>
+                <event id="reason"/>
+                <event id="start_date"/>
+                <event id="end_date"/>
+                <event id="employee_email"/>
+                <event id="robot"/>
+                <event id="e_n"/>
+                <event id="e_d"/>
+                <event id="e_e"/>
+                <event id="s_d"/>
+                <event id="r"/>
+                <event id="approved"/>
+            </included>
+            <pendingResponses>
+                <event id="robot"/>
+                <event id="approved"/>
+            </pendingResponses>
+        </marking>
+    </runtime>
+</dcrgraph>

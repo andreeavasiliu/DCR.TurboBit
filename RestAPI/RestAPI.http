@@ -1,0 +1,19 @@
+@RestAPI_HostAddress = https://localhost:7121
+
+@id=1987880
+GET {{RestAPI_HostAddress}}/dcrgraph/{{id}}
+
+###
+@graphid=1987880
+POST {{RestAPI_HostAddress}}/dcrgraph/{{graphid}}
+Content-Type: application/json
+{
+"EventId":"Activity4",
+"Data":"data2454"
+}
+
+###
+
+POST {{RestAPI_HostAddress}}/dcrgraph
+
+###
