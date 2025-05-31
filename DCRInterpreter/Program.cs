@@ -28,8 +28,8 @@ class Program
 
         SpawnData = File.ReadAllText(jsonDummyData);
 
-        //DoParseBenchmark(XDocument.Load(xmlFilePath3));
-        //DoExecBenchmark(XDocument.Load(xmlFilePath2));
+        DoParseBenchmark(XDocument.Load(xmlFilePath3));
+        DoExecBenchmark(XDocument.Load(xmlFilePath2));
         DoBenchmark(XDocument.Load(xmlFilePath));
         
 

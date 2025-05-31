@@ -18,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="json\mock_data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="xml\DCR-interpreter.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
